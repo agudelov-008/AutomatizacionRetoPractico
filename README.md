@@ -18,3 +18,5 @@ Comportamiento esperado: Después de guardar los datos del candidato, el sistema
 
 Impacto:
 Este bug interrumpe el flujo crítico de contratación de candidatos, lo que impide realizar pruebas automáticas completas de este escenario. El error es replicable y afecta la validación final del estado del candidato.
+
+-De igual manera al no poder continuar con dicho flujo realicé la validación al ultimo estado en el que quedó el candidato que sería Application Initiated.
